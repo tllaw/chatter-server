@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tllaw/chatter-server/issues"
   },
-  "homepage": "https://github.com/tllaw/chatter-server#readme"
+  "homepage": "https://github.com/tllaw/chatter-server#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
 }
