@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  db:
+    env_file: .env
+    image: postgres:13.1-alpine
+    container_name: chatter-database
+    ports:
+      - 5432:5432
